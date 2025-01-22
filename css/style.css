@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {  
+    background-image: url("https://img.freepik.com/free-photo/beautiful-constellations-planet_23-2149988827.jpg?t=st=1737273559~exp=1737277159~hmac=062b9b382fbd6ca95941c7a666938bd99912dbdde303fd6f75901e7b5b20088a&w=996");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top; 
+    
+    padding: 70px;
+   
+  }
+  
+
+  h1{
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    color:white;
+
+  }
+
+   .message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, sans-serif;
+    font-size: 24px;
+    color:white;
+    padding: 40px;
+    margin: 20px;
+   }
+   .display {
+    /* width: 8%; */
+    height: 40px;
+    font-size: 24px;
+    padding: 6px;
+    margin: 30px;
+    display: flex;
+    /* justify-content: center */
+    color: rgb(59, 56, 56);
+    border-radius: 4px;
+    background-color: rgb(152, 161, 170);
+  }
+  
+
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .row:last-child::before {
+    width: 40px;
+    height: 40px;
+  }
+
+  .alphabet-button {
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #353132;
+    border-radius: 15px;
+    border: 2px solid rgb(109, 98, 98);
+  }
+   
+  .alphabet-button:hover {
+    background-color: #7b7174;
+
+  }
+  .alphabet-button:active{
+    background-color: #272525;
+    
+  }
+ .alphabet-button:disabled{
+    background-color: black;
+    color: black;
+
+  }
+
+  .button {
+    padding: 20px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #353132;
+    border-radius: 15px;
+    border: 2px solid rgb(109, 98, 98);
+    
+  }
+
+  .button:hover {
+    background-color: #7b7174;
+
+  }
+  .button:active{
+    background-color: #272525;
+    
+  }
+
+  .button:disabled{
+    background-color: rgb(40, 36, 36);
+    color: rgb(37, 32, 32);
+
+  }
+
+  .secret-ltr{
+    border-bottom:  black 2px solid;
+    width: 10px;
+    margin-right: 5px;
+    background-color: pink;
+  }
+
+
+/*
+#button{
+    padding: 20px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #353132;
+    border-radius: 15px;
+    border: 2px solid rgb(109, 98, 98);
+
+}*/
+
+
+  /*
+  .alphabet-button {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px solid black;
+    font-size: 64px;
+    text-align: center;
+  }*/
